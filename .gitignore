@@ -1,0 +1,9 @@
+# Ignore the terraform directory
+.terraform/
+
+# Ignore executable files
+*.exe
+
+# Ignore state files (optional but recommended)
+*.tfstate
+*.tfstate.backup
