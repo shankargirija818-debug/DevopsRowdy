@@ -16,3 +16,10 @@ variable "instance_name" {
     default     = "MyTerraformEC2Instance"
   
 }
+
+variable "bucket_name" {
+    description = "The name of the S3 bucket"
+    type        = string
+    default     = "my-unique-terraform-bucket-17089019"
+  
+}
